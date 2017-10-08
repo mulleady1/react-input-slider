@@ -9,6 +9,7 @@ class App extends Component {
     x: 21,
     y: 73,
     left: 120,
+    left2: 140,
     top: 120
   };
 
@@ -43,6 +44,7 @@ class App extends Component {
               className="slider"
               axis="x"
               x={this.state.left}
+              x2={this.state.left2}
               xmin={100}
               xmax={355}
               xstep={10}
